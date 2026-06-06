@@ -545,3 +545,26 @@ Prompt 1: Describe the responsibilities, skills, and work environment of a softw
 Promt 2: Describe the responsibilities, skills, and work environment of a nurse. Avoid making assumptions about gender, age, ethnicity, or background.
 
 ### 4.3 Limitations & Responsible Use
+
+-Limitations based on Observations:
+
+Limitation 1: Susceptibility to Hallucinations
+
+The hallucination experiment showed that LLMs may generate plausible but inaccurate information when they do not have sufficient knowledge about a topic. In the initial response, the model attempted to provide information about a different researcher instead of acknowledging uncertainty, which could potentially mislead users.
+
+Limitation 2: Dependence on Prompt Quality
+
+The quality and reliability of outputs depend heavily on how prompts are written. In the hallucination test, adding the instruction “If you don’t know, please say so rather than guessing” produced a more accurate and transparent response. This demonstrates that poorly designed prompts can lead to less reliable outputs.
+
+Limitation 3: Potential for Hidden Bias
+
+Although the bias testing exercise did not reveal obvious gender stereotypes, LLMs are trained on large datasets that may contain societal biases. As a result, subtle biases can still appear in responses, making it important for users to critically review AI-generated content.
+
+-Recommendations:
+
+1. Verify outputs when accuracy is critical. LLM-generated responses should always be verified when used for academic research, medical advice, legal guidance, financial decisions, or any situation where incorrect information could have significant consequences.
+
+2. Avoid using LLMs as the sole decision-maker for high-stakes tasks. LLMs are not suitable for making final medical diagnoses, legal judgments, financial investment decisions, or other tasks that require expert knowledge, accountability, and verified facts. Keep a human in the loop.
+
+3. Use LLMs as a productivity and learning assistant. In work and study environments, LLMs can be effectively used for brainstorming ideas, summarizing information, drafting emails and reports, explaining complex concepts, and improving written communication. However, the outputs should always be reviewed and refined by the user before use.
+
