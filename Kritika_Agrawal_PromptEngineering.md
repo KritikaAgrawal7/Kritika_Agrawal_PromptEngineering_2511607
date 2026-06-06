@@ -272,6 +272,7 @@ In Scenario C, defining the model as a branding expert and providing details abo
 
 Task Chosen: Write a 3-sentence opening for a fantasy story about a hidden city in the clouds.
 
+### 2.1 Temperature Experimentation
 Low Tempaerature Prompt:
 Write a 3-sentence opening for a fantasy story about a hidden city in the clouds.
 Be precise and consistent.
@@ -292,9 +293,37 @@ Be highly creative and explore diverse ideas.
 High Temperature Output:
 The cartographers called it an atmospheric anomaly, but those who fell through the sky knew it as Oros, a sprawling metropolis anchored to the underside of a cumulonimbus cloud. Here, the cobblestone streets were chiseled from calcified lightning, glowing with a soft, restless blue that pulsed beneath the feet of sky-sailors and exiles. It was a city that lived in the margins of storms, hidden from the earth below by a permanent shroud of mist and the collective amnesia of the world.
 
-### 2.1 Temperature Experimentation
+
+
+### Comparison Table
+
+| Temperature Setting | Characteristics of the Output | Creativity Level | Predictability |
+|---------------------|-------------------------------|------------------|---------------|
+| Low Temperature | Focused on a clear and logical introduction to Aethelgard. The language was descriptive but restrained, emphasizing consistency and realism within the fantasy setting. | Low | High |
+| Medium Temperature | Added richer imagery and world-building elements such as violet skies, protective slipstreams, and skystone streets. The story felt more immersive while remaining coherent. | Medium | Medium |
+| High Temperature | Introduced highly imaginative concepts such as a city attached to the underside of a cloud, streets made of calcified lightning, and collective amnesia protecting the city. The narrative was unique and unconventional. | High | Low |
 
 ### 2.2 Analysis & Recommendations
+
+The temperature setting had a significant impact on the creativity, style, and predictability of the generated story openings. The low-temperature output was clear, structured, and consistent, focusing on a logical introduction to the hidden city of Aethelgard. The medium-temperature output added richer descriptions and stronger world-building, while the high-temperature output introduced highly imaginative concepts such as a city attached to the underside of a cloud, streets made of calcified lightning, and collective amnesia protecting the city from discovery.
+
+### 1. When would you use low temperatures?
+
+I would use low temperatures for tasks that require accuracy, consistency, and predictable outputs. Two specific use cases are:
+
+- Writing professional business emails where the tone needs to be formal and reliable.
+- Generating technical explanations or educational content where factual correctness and clarity are more important than creativity.
+
+### 2. When would you use high temperatures?
+
+I would use high temperatures for tasks that benefit from creativity, originality, and idea generation. Two specific use cases are:
+
+- Writing fantasy stories, novels, or creative fiction where unique concepts and imaginative world-building are desirable.
+- Brainstorming marketing campaigns, advertising slogans, or product names where unconventional ideas can lead to more innovative results.
+
+### 3. Which temperature worked best for your chosen task and why?
+
+For this task, the high-temperature setting worked best because the goal was to create an engaging fantasy story opening. The high-temperature output generated the most original and memorable ideas, including a city anchored to the underside of a cloud and streets made from calcified lightning. These creative elements made the story feel more magical and distinctive than the low- and medium-temperature outputs, which were well-written but more conventional in their approach.
 
 ## Part 3: Strategic Prompting Techniques
 
