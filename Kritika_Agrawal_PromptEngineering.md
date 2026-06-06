@@ -326,8 +326,63 @@ I would use high temperatures for tasks that benefit from creativity, originalit
 For this task, the high-temperature setting worked best because the goal was to create an engaging fantasy story opening. The high-temperature output generated the most original and memorable ideas, including a city anchored to the underside of a cloud and streets made from calcified lightning. These creative elements made the story feel more magical and distinctive than the low- and medium-temperature outputs, which were well-written but more conventional in their approach.
 
 ## Part 3: Strategic Prompting Techniques
+Using the Sample C : Planning Task
 
 ### 3.1 Chain-of-Thought Prompting
+1. Without Chain of Tought:
+
+Prompt:
+You have a meeting at 2PM that requires 1 hour of prep time, a 30 minute commute, and you need to eat lunch (30 mins) beforehand. You also have a 45-minute call scheduled at 11 AM. What time should you start preparing to make everything work? Give only the final answer. 
+
+Output:
+11:45 AM
+
+2. With Chain of Tought:
+
+Prompt:
+You have a meeting at 2PM that requires 1 hour of prep time, a 30 minute commute, and you need to eat lunch (30 mins) beforehand. You also have a 45-minute call scheduled at 11 AM. What time should you start preparing to make everything work? Let's solve this step by step and explain the reasoning.
+
+Output:
+To find out exactly when you need to start preparing, we can map out your schedule by working backward from the 2:00 PM meeting, while also checking for any conflicts with your morning call.
+Here is the step-by-step breakdown:
+Step 1: Work Backward from the Meeting
+The meeting starts at 2:00 PM. Let's subtract the necessary blocks of time leading up to it:
+Commute (30 minutes): To arrive by 2:00 PM, you must leave for the office at 1:30 PM.
+Lunch (30 minutes): To finish lunch and leave by 1:30 PM, you need to start eating at 1:00 PM.
+Preparation Time (1 hour): To finish your 1 hour of preparation by 1:00 PM, you need to start preparing at 12:00 PM (Noon).
+Based on the meeting requirements alone, your ideal timeline looks like this:
+12:00 PM – 1:00 PM: Prepare for the meeting
+1:00 PM – 1:30 PM: Eat lunch
+1:30 PM – 2:00 PM: Commute to the office
+Step 2: Check for Conflicts with the 11:00 AM Call
+You have a 45-minute call scheduled at 11:00 AM.
+This call will run from 11:00 AM to 11:45 AM.
+Since the call ends at 11:45 AM, you have a 15-minute buffer before your required 12:00 PM preparation start time. Because these two events do not overlap, your schedule works out perfectly without any adjustments.
+Final Timeline
+Activity	Time Slot
+Morning Call	11:00 AM – 11:45 AM
+Free Buffer	11:45 AM – 12:00 PM
+Start Meeting Prep	12:00 PM – 1:00 PM
+Eat Lunch	1:00 PM – 1:30 PM
+Commute	1:30 PM – 2:00 PM
+Meeting Begins	2:00 PM
+You should start preparing at 12:00 PM (Noon) to make everything work.
+
+3. Compare:
+
+Comparison & Analysis
+
+How did the outputs differ?
+
+The output generated without Chain-of-Thought prompting provided only a final answer of 11:45 AM without any explanation of how the answer was derived. In contrast, the Chain-of-Thought output broke the problem into smaller steps, working backward from the 2:00 PM meeting and accounting for the commute, lunch, preparation time, and the 11:00 AM call. It also presented a complete timeline of activities, making the reasoning process transparent and easy to verify.
+
+Why does Chain-of-Thought help with complex reasoning?
+
+Chain-of-Thought prompting helps by encouraging the model to solve a problem step by step rather than jumping directly to an answer. This approach is particularly useful for scheduling, mathematical calculations, planning, and multi-step reasoning tasks because it allows both the model and the user to verify each intermediate step. By explicitly showing the logic, it reduces the likelihood of overlooked constraints and makes it easier to identify errors.
+
+What limitation did you observe?
+
+One limitation observed is that Chain-of-Thought responses are significantly longer than direct responses and may provide more detail than necessary for simple tasks. Additionally, even when reasoning is shown, the model can still make mistakes. In this experiment, the direct answer (11:45 AM) differed from the Chain-of-Thought answer (12:00 PM). However, the step-by-step explanation made it possible to verify the calculations and determine which answer was correct, whereas the direct response provided no way to check the reasoning.
 
 ### 3.2 Few-Shot Prompting
 
