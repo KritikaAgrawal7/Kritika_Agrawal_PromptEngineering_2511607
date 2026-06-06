@@ -386,6 +386,56 @@ One limitation observed is that Chain-of-Thought responses are significantly lon
 
 ### 3.2 Few-Shot Prompting
 
+Step 1: Zero-Shot Attempt
+
+Prompt: 
+Classify each review as Positive, Neutral, or Negative.1. the product arrived damaged and the customer service was unhelpful. 2. Works as expected, nothing special but does the job 3. Absolutely love this! best purchase ive made all year! 4. the quality os okay but slightly overpriced for the quality you get. 5. Terrible experience, would not recommend to anyone.
+
+Output:
+Here is the classification for each review:
+"the product arrived damaged and the customer service was unhelpful."
+Classification: Negative
+"Works as expected, nothing special but does the job"
+Classification: Neutral
+"Absolutely love this! best purchase ive made all year!"
+Classification: Positive
+"the quality os okay but slightly overpriced for the quality you get."
+Classification: Neutral
+"Terrible experience, would not recommend to anyone."
+Classification: Negative
+
+Step 2: Few-Shot Attempt
+Prompt:
+
+Use these example calssifacations:
+Review: I love this product and would buy it again.
+Sentiment: Positive
+Review: The item works as expected.
+Sentiment: Neutral
+Review: The product broke within a week.
+Sentiment: Negative
+Now Classify each review as Positive, Neutral, or Negative: 1. the product arrived damaged and the customer service was unhelpful. 2. Works as expected, nothing special but does the job 3. Absolutely love this! best purchase ive made all year! 4. the quality os okay but slightly overpriced for the quality you get. 5. Terrible experience, would not recommend to anyone. 
+
+Output:
+0.Sentiment: Negative
+1.Sentiment: Neutral
+2.Sentiment: Positive
+3.Sentiment: Neutral
+4.Sentiment: Negative
+
+Step3: Comparison Table
+### Comparison Table
+
+| Review | Zero-Shot Classification | Few-Shot Classification | Correct Classification | Improved? |
+|----------|----------|----------|----------|----------|
+| The product arrived damaged and the customer service was unhelpful. | Negative | Negative | Negative | No |
+| Works as expected, nothing special but does the job. | Neutral | Neutral | Neutral | No |
+| Absolutely love this! Best purchase I've made all year! | Positive | Positive | Positive | No |
+| The quality is okay but slightly overpriced for what you get. | Neutral | Neutral | Neutral | No |
+| Terrible experience, would not recommend to anyone. | Negative | Negative | Negative | No |
+
+Few-shot prompting is useful because it provides the model with examples of the desired task and output format before generating a response. These examples help the model better understand the expected classification criteria and improve consistency, especially for complex or ambiguous tasks. While it did not improve accuracy in this experiment, it can be highly beneficial when the task requires domain-specific interpretation or nuanced decision-making.
+
 ## Part 4: Responsible AI & Limitations
 
 ### 4.1 Testing for Hallucinations
