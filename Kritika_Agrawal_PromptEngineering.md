@@ -270,6 +270,28 @@ In Scenario C, defining the model as a branding expert and providing details abo
 
 ## Part 2: Temperature & Parameter Control
 
+Task Chosen: Write a 3-sentence opening for a fantasy story about a hidden city in the clouds.
+
+Low Tempaerature Prompt:
+Write a 3-sentence opening for a fantasy story about a hidden city in the clouds.
+Be precise and consistent.
+
+Low Tempaerature Output:
+To those tethered to the earth, the endless sea of white above was merely a gathering of rain and wind. Yet, nestled deep within that shifting mist lay Aethelgard, a sprawling metropolis of spun glass and marble that floated in defiance of the world below. It was a kingdom kept secret not by magic, but by the simple truth that humanity rarely looks up with eyes that truly wish to see.
+
+Medium Temperature Prompt:
+Write a 3-sentence opening for a fantasy story about a hidden city in the clouds.
+
+Medium Temperature Output:
+Suspended between the violet hues of the upper stratosphere and the rolling thunder below, the soaring spires of Aethelgard remained entirely invisible to the mortal world. To the sailors on the oceans beneath, the kingdom was nothing more than a stubborn, immovable bank of fog that never chased the wind. Yet, past the blinding mist and the fierce, protective slipstreams, streets paved with polished skystone bustled with a people who had forgotten the touch of the earth.
+
+High Temperature Prompt:
+Write a 3-sentence opening for a fantasy story about a hidden city in the clouds.
+Be highly creative and explore diverse ideas.
+
+High Temperature Output:
+The cartographers called it an atmospheric anomaly, but those who fell through the sky knew it as Oros, a sprawling metropolis anchored to the underside of a cumulonimbus cloud. Here, the cobblestone streets were chiseled from calcified lightning, glowing with a soft, restless blue that pulsed beneath the feet of sky-sailors and exiles. It was a city that lived in the margins of storms, hidden from the earth below by a permanent shroud of mist and the collective amnesia of the world.
+
 ### 2.1 Temperature Experimentation
 
 ### 2.2 Analysis & Recommendations
