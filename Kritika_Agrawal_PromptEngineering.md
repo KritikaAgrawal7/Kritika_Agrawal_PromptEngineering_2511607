@@ -4,9 +4,10 @@ Submission Date: 06 June 2026
 LLM Used: Google Gemini (Free Version)
 ## Part 1: Prompt Design & Iteration
 ### 1.1 Scenario A: Technical Explanation
-Initial Prompt
+Initial Prompt:
 Explain blockchain to a 10-year-old.
-Output
+
+Output:
 Imagine you and your friends love playing a trading card game. Usually, one person—let's call him Leo—is in charge of keeping the official rulebook and writing down who owns which card.
 But what happens if Leo loses the book? Or what if he secretly changes the rules to give himself the best cards? That’s the problem with having just one person in charge.
 A blockchain is a way to solve this problem so that everyone keeps track of the rules together, without needing Leo.
@@ -26,9 +27,11 @@ They see that Jake's notebook doesn't match theirs.
 Because 99% of the kids agree that Jake’s book is wrong, they tell him, "Nice try, Jake!" and completely ignore his fake notebook.
 Summary
 A blockchain is just a digital notebook that is copied across thousands of computers all over the world. Because everyone has the exact same copy, no one can erase history, steal, or cheat. It allows people who don't know each other to safely send things (like digital money) directly to one another without needing a bank, a company, or a "Leo" to watch over them.
-Prompt V2
+
+Prompt V2:
 You are a teacher teaching blockchain to 10 year olds as part of school curriculum. Explain blockchain to a 10-year-old using simple language and real-life examples.
-Output V2
+
+Output V2:
 Alright, everyone! Grab your seats. Today, we are going to learn about a piece of technology that sounds like it’s from a sci-fi movie, but it’s actually changing the world right now. It’s called Blockchain.
 Don't let the scary name fool you. It's actually as simple as a shared diary. Let’s break it down!
 The Magical, Un-cheatable Diary
@@ -60,6 +63,77 @@ Let's Review!
 Next time someone asks you what a blockchain is, just tell them this:
 It’s a digital notebook shared by a giant network of computers. They all work together to write down information, and once it's written, it can never be changed or erased.
 Who wants to start our first paper-notebook blockchain for recess today?
+
+Prompt V3:
+You are a teacher teaching blockchain to 10 year olds as part of school curriculum. Explain blockchain to a 10-year-old.
+Use:
+- simple words
+- one real-life analogy
+- maximum 200 words
+- bullet points
+- friendly tone 
+
+Output V3:
+Hey there, future tech wizards! 🚀 Today, we are going to learn about blockchain, which is like a magical digital notebook.
+Imagine you and your friends are playing a game of marbles. Instead of one person keeping score, everyone in the group has their own identical notebook.
+Here is how it works:
+The Shared Notebook: Whenever you win a marble, everyone writes it down at the exact same time.
+The Blocks: Each page in your notebook is a "block." It holds a list of what happened in the game.
+The Chain: Once a page is full, you all lock it with a secret code and flip to a new page. This links the pages together in a "chain."
+No Cheating: Because everyone has the exact same notebook, no one can secretly erase a page or cheat. If someone tries to change their notebook, everyone else's books will show it's a mistake!
+
 ### 1.1 Scenario B: Professional Email
+Initial Prompt:
+Write an email declining a job offer.
+Output:
+Here are a few options for declining a job offer, ranging from a standard professional approach to a more brief version. Choose the one that best fits your situation.
+Option 1: Standard & Professional (Recommended)
+Use this option to keep the door open for future opportunities while remaining clear and polite.
+Subject: Job Offer - [Your Name] - [Job Title]
+Dear [Hiring Manager's Name],
+Thank you so much for offering me the position of [Job Title] at [Company Name]. I truly appreciate the time you and the team spent interviewing me and answering my questions.
+After careful consideration, I have decided to accept another opportunity that aligns more closely with my current career goals. Therefore, I must respectfully decline your offer.
+I was incredibly impressed by [mention one specific thing you liked, e.g., the company's culture / the innovative projects discussed], and I am genuinely grateful for the confidence you showed in my abilities.
+I wish you and [Company Name] all the best in your future endeavors. I hope our paths cross again in the future.
+Sincerely,
+[Your Name]
+[Your Phone Number]
+[Your LinkedIn Profile Link]
+
+Prompt V2:
+You are an HR communication expert.
+Write a professional email declining a job offer because I accepted another opportunity.
+
+Output V2:
+Subject: Job Offer - [Your Name]
+Dear [Hiring Manager Name],
+Thank you so much for offering me the [Job Title] position at [Company Name]. I truly appreciate the time you and the team spent discussing the role and the company's vision with me.
+After careful consideration, I have decided to accept another offer that aligns closely with my current professional development and long-term career goals. Therefore, I must respectfully decline your offer.
+It was a difficult decision, as I am very impressed by [mention one specific thing you liked, e.g., the team's culture / the innovative projects at Company Name].
+Thank you again for your time, consideration, and the confidence you showed in my abilities. I wish you and [Company Name] continued success, and I hope our paths cross again in the future.
+Best regards,
+[Your Name]
+[Your Phone Number]
+[Your LinkedIn Profile Link]
+
+Prompt V3:
+You are an HR communication expert.Write a professional email declining a job offer because I accepted another opportunity.
+Requirements:
+- polite
+- thankful
+- professional
+- leave the door open for future opportunities 
+
+Output V3:
+Subject: Job Offer - [Your Name]
+Dear [Hiring Manager's Name or Recruiter's Name],
+Thank you so much for offering me the [Job Title] position at [Company Name]. I genuinely appreciate the time you and the team spent interviewing me, as well as your consideration for this role.
+After careful thought, I have decided to accept another opportunity that aligns closely with my current professional goals. This was a difficult decision, as I am incredibly impressed by [Company Name] and the exciting work your team is doing.
+I want to thank you again for your time, transparency, and the kindness you showed me throughout the hiring process. It was a pleasure connecting with you, and I would love to stay in touch as our paths may cross again in the future.
+I wish you and [Company Name] continued success.
+Warm regards,
+[Your Name]
+[Your Phone Number]
+[Your LinkedIn Profile Link]
 
 ### 1.1 Scenario C: Creative Content
