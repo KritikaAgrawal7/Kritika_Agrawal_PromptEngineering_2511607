@@ -83,8 +83,10 @@ The Chain: Once a page is full, you all lock it with a secret code and flip to a
 No Cheating: Because everyone has the exact same notebook, no one can secretly erase a page or cheat. If someone tries to change their notebook, everyone else's books will show it's a mistake!
 
 ### 1.1 Scenario B: Professional Email
+
 Initial Prompt:
 Write an email declining a job offer.
+
 Output:
 Here are a few options for declining a job offer, ranging from a standard professional approach to a more brief version. Choose the one that best fits your situation.
 Option 1: Standard & Professional (Recommended)
